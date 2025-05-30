@@ -12,7 +12,6 @@ A robust command-line interface application for interacting with DeepSeek AI mod
 - **Interactive CLI Interface**: Chat with DeepSeek AI models directly from your terminal
 - **Conversation History**: All chats are saved as Markdown files with timestamps
 - **Dashboard Management**: Easy-to-use dashboard for managing conversations and settings
-- **Secure Configuration**: API keys stored in environment variables, not in source code
 - **Customizable Settings**: Adjust model parameters, temperature, max tokens, etc.
 - **Color-coded Interface**: Enhanced readability with ANSI color formatting
 - **Streaming Responses**: Real-time streaming of AI responses for natural interaction
@@ -29,7 +28,7 @@ A robust command-line interface application for interacting with DeepSeek AI mod
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone
 cd deepseek_api
 ```
 
