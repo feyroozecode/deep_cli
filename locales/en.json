@@ -1,0 +1,63 @@
+{
+  "app_name": "DeepSeek CLI Chat",
+  "welcome": {
+    "header": "Welcome to DeepSeek CLI Chat",
+    "description": "A command-line interface to chat with DeepSeek AI models.",
+    "history_info": "Your conversations will be saved locally for future reference."
+  },
+  "dashboard": {
+    "title": "DeepSeek CLI Chat Dashboard",
+    "options": {
+      "new_chat": "Start New Chat",
+      "view_history": "View Chat History",
+      "settings": "Configure Settings",
+      "exit": "Exit",
+      "language": "Change Language"
+    },
+    "prompt": "Select an option (1-5):"
+  },
+  "chat": {
+    "started": "New Chat Session Started",
+    "instructions": "Type 'exit' to end the conversation, or 'dashboard' to return to main menu.",
+    "you": "You",
+    "ai": "DeepSeek AI",
+    "saved": "Conversation saved to:"
+  },
+  "history": {
+    "title": "Conversation History:",
+    "empty": "No conversation history found.",
+    "view_prompt": "Enter number to view conversation (or 'b' to go back):",
+    "invalid_selection": "Invalid selection.",
+    "enter_valid": "Please enter a valid number."
+  },
+  "settings": {
+    "title": "Configuration Settings:",
+    "api_key": "API Key",
+    "base_url": "Base URL",
+    "model": "Model",
+    "temperature": "Temperature",
+    "max_tokens": "Max Tokens",
+    "save_history": "Save History",
+    "show_timestamps": "Show Timestamps",
+    "language": "Language",
+    "save_return": "Save and Return",
+    "select_prompt": "Select a setting to change (1-9):",
+    "enter_new": "Enter new",
+    "saved": "Configuration saved.",
+    "invalid_choice": "Invalid choice.",
+    "note_config_only": "Note: This will only update the configuration file.",
+    "note_env_persist": "For persistence across restarts, add to .env file as",
+    "yes_no": "y/n"
+  },
+  "warnings": {
+    "no_api_key_env": "Warning: No API key found in environment variables.",
+    "set_api_key": "Please set DEEPSEEK_API_KEY in .env file or configure it in the application.",
+    "invalid_value": "Invalid value. Not changed."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "French",
+    "ar": "Arabic"
+  },
+  "exit_message": "Thank you for using DeepSeek CLI Chat. Goodbye!"
+}

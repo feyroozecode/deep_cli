@@ -1,0 +1,63 @@
+{
+  "app_name": "DeepSeek CLI Chat",
+  "welcome": {
+    "header": "Bienvenue sur DeepSeek CLI Chat",
+    "description": "Une interface en ligne de commande pour discuter avec les modèles DeepSeek AI.",
+    "history_info": "Vos conversations seront sauvegardées localement pour référence future."
+  },
+  "dashboard": {
+    "title": "Tableau de Bord DeepSeek CLI Chat",
+    "options": {
+      "new_chat": "Démarrer une Nouvelle Conversation",
+      "view_history": "Voir l'Historique des Conversations",
+      "settings": "Configurer les Paramètres",
+      "exit": "Quitter",
+      "language": "Changer de Langue"
+    },
+    "prompt": "Sélectionnez une option (1-5) :"
+  },
+  "chat": {
+    "started": "Nouvelle Session de Conversation Démarrée",
+    "instructions": "Tapez 'exit' pour terminer la conversation, ou 'dashboard' pour revenir au menu principal.",
+    "you": "Vous",
+    "ai": "DeepSeek AI",
+    "saved": "Conversation sauvegardée dans :"
+  },
+  "history": {
+    "title": "Historique des Conversations :",
+    "empty": "Aucun historique de conversation trouvé.",
+    "view_prompt": "Entrez un numéro pour voir la conversation (ou 'b' pour revenir en arrière) :",
+    "invalid_selection": "Sélection invalide.",
+    "enter_valid": "Veuillez entrer un numéro valide."
+  },
+  "settings": {
+    "title": "Paramètres de Configuration :",
+    "api_key": "Clé API",
+    "base_url": "URL de Base",
+    "model": "Modèle",
+    "temperature": "Température",
+    "max_tokens": "Nombre Maximum de Tokens",
+    "save_history": "Sauvegarder l'Historique",
+    "show_timestamps": "Afficher les Horodatages",
+    "language": "Langue",
+    "save_return": "Sauvegarder et Revenir",
+    "select_prompt": "Sélectionnez un paramètre à modifier (1-9) :",
+    "enter_new": "Entrez nouveau",
+    "saved": "Configuration sauvegardée.",
+    "invalid_choice": "Choix invalide.",
+    "note_config_only": "Remarque : Cela ne mettra à jour que le fichier de configuration.",
+    "note_env_persist": "Pour la persistance entre les redémarrages, ajoutez au fichier .env comme",
+    "yes_no": "o/n"
+  },
+  "warnings": {
+    "no_api_key_env": "Avertissement : Aucune clé API trouvée dans les variables d'environnement.",
+    "set_api_key": "Veuillez définir DEEPSEEK_API_KEY dans le fichier .env ou le configurer dans l'application.",
+    "invalid_value": "Valeur invalide. Non modifiée."
+  },
+  "languages": {
+    "en": "Anglais",
+    "fr": "Français",
+    "ar": "Arabe"
+  },
+  "exit_message": "Merci d'avoir utilisé DeepSeek CLI Chat. Au revoir !"
+}
