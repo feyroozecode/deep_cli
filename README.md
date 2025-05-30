@@ -28,7 +28,7 @@ A robust command-line interface application for interacting with DeepSeek AI mod
 ### 1. Clone the Repository
 
 ```bash
-git clone
+git clone https://github.com/feyroozecode/deep_cli
 cd deepseek_api
 ```
 
